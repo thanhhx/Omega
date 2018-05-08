@@ -56,7 +56,7 @@ if [[ $DOSETUP =~ "y" ]] ; then
 fi
 
 wget https://github.com/omegacoinnetwork/omegacoin/releases/download/0.12.5.1/omagecoincore-0.12.5.1-linux64.zip
-sudo upzip omegacoincore*.zip
+sudo unzip omegacoincore*.zip
 sudo mv  omegacoincore*/bin/* /usr/bin
 
 echo ""
