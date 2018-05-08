@@ -56,8 +56,8 @@ if [[ $DOSETUP =~ "y" ]] ; then
 fi
 
 wget https://github.com/omegacoinnetwork/omegacoin/releases/download/0.12.5.1/omagecoincore-0.12.5.1-linux64.zip
-sudo unzip omegacoincore*.zip
-sudo mv  omegacoincore*/bin/* /usr/bin
+sudo unzip omagecoincore*.zip -d omegacoincore-0.12.5.1
+sudo mv  omegacoincore-0.12.5.1/bin/* /usr/bin
 
 echo ""
 echo "Configure your masternodes now!"
